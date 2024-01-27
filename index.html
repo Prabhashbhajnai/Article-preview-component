@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Article preview component</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="./images/drawers.jpg" alt="drawers" class="drawers">
+        </div>
+
+        <!-- Text -->
+        <div class="right-container">
+            <div class="text-container">
+                <h2 class="title-h">Shift the overall look and feel by adding these wonderful touches to furniture in
+                    your
+                    home</h2>
+                <p>Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and
+                    uninviting.
+                    I’ve got some simple tips to help you make any room feel complete.
+                </p>
+            </div>
+
+            <!-- toolbar for mobile devices -->
+            <!-- <div class="mobileActive">
+                <span class="tooltip-link">SHARE</span>
+                <a href="#" class="tooltip-img"><img src="./images/icon-facebook.svg" width="30" height="30" /></a>
+                <a href="#" class="tooltip-img"><img src="./images/icon-twitter.svg" width="30" height="30" /></a>
+                <a href="#" class="tooltip-img"><img src="./images/icon-pinterest.svg" width="30" height="30" /></a>
+                <div id="share-container" class="share-container">
+                    <img src="./images/icon-share.svg" alt="share" id="shareButton" class="share" width="20" height="20" />
+                </div>
+            </div> -->
+
+            
+            <!-- User -->
+            <div class="user-container">
+                <div class="avatar-container">
+                    <img src="./images/avatar-michelle.jpg" alt="avatar" class="avatar">
+                </div>
+                <div class="name-container">
+                    <h3>Michelle Appleton</h3>
+                    <p>28 Jun 2020</p>
+                </div>
+
+                <!-- Tooltip for dextop devices -->
+                <div class="tooltip">
+                    <div id="share-container" class="share-container">
+                        <img src="./images/icon-share.svg" alt="share" id="shareButton" class="share" width="15"
+                            height="13">
+                    </div>
+                    <div id="popover" class="popover">
+                        <div class="btn-container">
+                            <span class="tooltip-link">SHARE</span>
+                            <a href="#" class="tooltip-img"><img src="./images/icon-facebook.svg" /></a>
+                            <a href="#" class="tooltip-img"><img src="./images/icon-twitter.svg" /></a>
+                            <a href="#" class="tooltip-img"><img src="./images/icon-pinterest.svg" /></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
