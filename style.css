@@ -88,6 +88,7 @@ body {
     justify-content: center;
     gap: 20px;
     font-size: 13px;
+    margin-top: 20px;
 
     h3 {
         margin: 0;
@@ -159,8 +160,11 @@ body {
     }
 }
 
-.mobileActive {
+.hide-on-mobile{
     display: none;
+}
+
+.mobileActive {
     @media screen and (max-width: 480px) {
         background-color: hsl(217, 19%, 35%);
         display: flex;
